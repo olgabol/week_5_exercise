@@ -1,0 +1,55 @@
+html {
+    font-size: xx-large;
+}
+
+header,
+main,
+section,
+aside,
+footer,
+div {
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.else {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.else1,
+.else2 {
+    display: flex;
+    flex-direction: row;
+    width: 50vh;
+    justify-content: space-evenly;
+}
+
+.else0 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.else3 {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+}
